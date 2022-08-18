@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3979FA2E28AE1DC000469569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA2D28AE1DC000469569 /* AppDelegate.swift */; };
+		3979FA3028AE1DC000469569 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA2F28AE1DC000469569 /* SceneDelegate.swift */; };
+		3979FA3228AE1DC000469569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA3128AE1DC000469569 /* ViewController.swift */; };
+		3979FA3528AE1DC000469569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979FA3328AE1DC000469569 /* Main.storyboard */; };
+		3979FA3828AE1DC000469569 /* EsteeLauderSubmission.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA3628AE1DC000469569 /* EsteeLauderSubmission.xcdatamodeld */; };
+		3979FA3A28AE1DC200469569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3979FA3928AE1DC200469569 /* Assets.xcassets */; };
+		3979FA3D28AE1DC200469569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3979FA3B28AE1DC200469569 /* LaunchScreen.storyboard */; };
+		3979FA4828AE1DC200469569 /* EsteeLauderSubmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA4728AE1DC200469569 /* EsteeLauderSubmissionTests.swift */; };
+		3979FA5328AE1DC200469569 /* EsteeLauderSubmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979FA5228AE1DC200469569 /* EsteeLauderSubmissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3979FA4428AE1DC200469569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979FA2228AE1DC000469569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3979FA2928AE1DC000469569;
+			remoteInfo = EsteeLauderSubmission;
+		};
+		3979FA4F28AE1DC200469569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979FA2228AE1DC000469569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3979FA2928AE1DC000469569;
+			remoteInfo = EsteeLauderSubmission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3979FA2A28AE1DC000469569 /* EsteeLauderSubmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauderSubmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3979FA2D28AE1DC000469569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3979FA2F28AE1DC000469569 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3979FA3128AE1DC000469569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3979FA3428AE1DC000469569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3979FA3728AE1DC000469569 /* EsteeLauderSubmission.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EsteeLauderSubmission.xcdatamodel; sourceTree = "<group>"; };
+		3979FA3928AE1DC200469569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3979FA3C28AE1DC200469569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3979FA3E28AE1DC200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3979FA4328AE1DC200469569 /* EsteeLauderSubmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderSubmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3979FA4728AE1DC200469569 /* EsteeLauderSubmissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderSubmissionTests.swift; sourceTree = "<group>"; };
+		3979FA4928AE1DC200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3979FA4E28AE1DC200469569 /* EsteeLauderSubmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderSubmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3979FA5228AE1DC200469569 /* EsteeLauderSubmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderSubmissionUITests.swift; sourceTree = "<group>"; };
+		3979FA5428AE1DC200469569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3979FA2728AE1DC000469569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA4028AE1DC200469569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA4B28AE1DC200469569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3979FA2128AE1DC000469569 = {
+			isa = PBXGroup;
+			children = (
+				3979FA2C28AE1DC000469569 /* EsteeLauderSubmission */,
+				3979FA4628AE1DC200469569 /* EsteeLauderSubmissionTests */,
+				3979FA5128AE1DC200469569 /* EsteeLauderSubmissionUITests */,
+				3979FA2B28AE1DC000469569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3979FA2B28AE1DC000469569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3979FA2A28AE1DC000469569 /* EsteeLauderSubmission.app */,
+				3979FA4328AE1DC200469569 /* EsteeLauderSubmissionTests.xctest */,
+				3979FA4E28AE1DC200469569 /* EsteeLauderSubmissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3979FA2C28AE1DC000469569 /* EsteeLauderSubmission */ = {
+			isa = PBXGroup;
+			children = (
+				3979FA2D28AE1DC000469569 /* AppDelegate.swift */,
+				3979FA2F28AE1DC000469569 /* SceneDelegate.swift */,
+				3979FA3128AE1DC000469569 /* ViewController.swift */,
+				3979FA3328AE1DC000469569 /* Main.storyboard */,
+				3979FA3928AE1DC200469569 /* Assets.xcassets */,
+				3979FA3B28AE1DC200469569 /* LaunchScreen.storyboard */,
+				3979FA3E28AE1DC200469569 /* Info.plist */,
+				3979FA3628AE1DC000469569 /* EsteeLauderSubmission.xcdatamodeld */,
+			);
+			path = EsteeLauderSubmission;
+			sourceTree = "<group>";
+		};
+		3979FA4628AE1DC200469569 /* EsteeLauderSubmissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3979FA4728AE1DC200469569 /* EsteeLauderSubmissionTests.swift */,
+				3979FA4928AE1DC200469569 /* Info.plist */,
+			);
+			path = EsteeLauderSubmissionTests;
+			sourceTree = "<group>";
+		};
+		3979FA5128AE1DC200469569 /* EsteeLauderSubmissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3979FA5228AE1DC200469569 /* EsteeLauderSubmissionUITests.swift */,
+				3979FA5428AE1DC200469569 /* Info.plist */,
+			);
+			path = EsteeLauderSubmissionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3979FA2928AE1DC000469569 /* EsteeLauderSubmission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3979FA5728AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmission" */;
+			buildPhases = (
+				3979FA2628AE1DC000469569 /* Sources */,
+				3979FA2728AE1DC000469569 /* Frameworks */,
+				3979FA2828AE1DC000469569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsteeLauderSubmission;
+			productName = EsteeLauderSubmission;
+			productReference = 3979FA2A28AE1DC000469569 /* EsteeLauderSubmission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3979FA4228AE1DC200469569 /* EsteeLauderSubmissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3979FA5A28AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmissionTests" */;
+			buildPhases = (
+				3979FA3F28AE1DC200469569 /* Sources */,
+				3979FA4028AE1DC200469569 /* Frameworks */,
+				3979FA4128AE1DC200469569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3979FA4528AE1DC200469569 /* PBXTargetDependency */,
+			);
+			name = EsteeLauderSubmissionTests;
+			productName = EsteeLauderSubmissionTests;
+			productReference = 3979FA4328AE1DC200469569 /* EsteeLauderSubmissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3979FA4D28AE1DC200469569 /* EsteeLauderSubmissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3979FA5D28AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmissionUITests" */;
+			buildPhases = (
+				3979FA4A28AE1DC200469569 /* Sources */,
+				3979FA4B28AE1DC200469569 /* Frameworks */,
+				3979FA4C28AE1DC200469569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3979FA5028AE1DC200469569 /* PBXTargetDependency */,
+			);
+			name = EsteeLauderSubmissionUITests;
+			productName = EsteeLauderSubmissionUITests;
+			productReference = 3979FA4E28AE1DC200469569 /* EsteeLauderSubmissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3979FA2228AE1DC000469569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3979FA2928AE1DC000469569 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3979FA4228AE1DC200469569 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3979FA2928AE1DC000469569;
+					};
+					3979FA4D28AE1DC200469569 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3979FA2928AE1DC000469569;
+					};
+				};
+			};
+			buildConfigurationList = 3979FA2528AE1DC000469569 /* Build configuration list for PBXProject "EsteeLauderSubmission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3979FA2128AE1DC000469569;
+			productRefGroup = 3979FA2B28AE1DC000469569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3979FA2928AE1DC000469569 /* EsteeLauderSubmission */,
+				3979FA4228AE1DC200469569 /* EsteeLauderSubmissionTests */,
+				3979FA4D28AE1DC200469569 /* EsteeLauderSubmissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3979FA2828AE1DC000469569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3979FA3D28AE1DC200469569 /* LaunchScreen.storyboard in Resources */,
+				3979FA3A28AE1DC200469569 /* Assets.xcassets in Resources */,
+				3979FA3528AE1DC000469569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA4128AE1DC200469569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA4C28AE1DC200469569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3979FA2628AE1DC000469569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3979FA3228AE1DC000469569 /* ViewController.swift in Sources */,
+				3979FA3828AE1DC000469569 /* EsteeLauderSubmission.xcdatamodeld in Sources */,
+				3979FA2E28AE1DC000469569 /* AppDelegate.swift in Sources */,
+				3979FA3028AE1DC000469569 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA3F28AE1DC200469569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3979FA4828AE1DC200469569 /* EsteeLauderSubmissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3979FA4A28AE1DC200469569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3979FA5328AE1DC200469569 /* EsteeLauderSubmissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3979FA4528AE1DC200469569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3979FA2928AE1DC000469569 /* EsteeLauderSubmission */;
+			targetProxy = 3979FA4428AE1DC200469569 /* PBXContainerItemProxy */;
+		};
+		3979FA5028AE1DC200469569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3979FA2928AE1DC000469569 /* EsteeLauderSubmission */;
+			targetProxy = 3979FA4F28AE1DC200469569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3979FA3328AE1DC000469569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3979FA3428AE1DC000469569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3979FA3B28AE1DC200469569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3979FA3C28AE1DC200469569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3979FA5528AE1DC200469569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3979FA5628AE1DC200469569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3979FA5828AE1DC200469569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3979FA5928AE1DC200469569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3979FA5B28AE1DC200469569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsteeLauderSubmission.app/EsteeLauderSubmission";
+			};
+			name = Debug;
+		};
+		3979FA5C28AE1DC200469569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsteeLauderSubmission.app/EsteeLauderSubmission";
+			};
+			name = Release;
+		};
+		3979FA5E28AE1DC200469569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EsteeLauderSubmission;
+			};
+			name = Debug;
+		};
+		3979FA5F28AE1DC200469569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EsteeLauderSubmissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.EsteeLauderSubmissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EsteeLauderSubmission;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3979FA2528AE1DC000469569 /* Build configuration list for PBXProject "EsteeLauderSubmission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979FA5528AE1DC200469569 /* Debug */,
+				3979FA5628AE1DC200469569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3979FA5728AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979FA5828AE1DC200469569 /* Debug */,
+				3979FA5928AE1DC200469569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3979FA5A28AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979FA5B28AE1DC200469569 /* Debug */,
+				3979FA5C28AE1DC200469569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3979FA5D28AE1DC200469569 /* Build configuration list for PBXNativeTarget "EsteeLauderSubmissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3979FA5E28AE1DC200469569 /* Debug */,
+				3979FA5F28AE1DC200469569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3979FA3628AE1DC000469569 /* EsteeLauderSubmission.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3979FA3728AE1DC000469569 /* EsteeLauderSubmission.xcdatamodel */,
+			);
+			currentVersion = 3979FA3728AE1DC000469569 /* EsteeLauderSubmission.xcdatamodel */;
+			path = EsteeLauderSubmission.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3979FA2228AE1DC000469569 /* Project object */;
+}
