@@ -1,6 +1,5 @@
 # EsteeLauderSubmission
 
-![esteelaudergif](https://user-images.githubusercontent.com/101075338/185669138-9f7f3f61-2269-4d88-8cea-e65dcebb1176.gif)
 
 
 <img width="181" alt="esteelauder1" src="https://user-images.githubusercontent.com/101075338/185669273-c18b2fd5-5b0c-4156-982e-56abf2ab736e.png">
